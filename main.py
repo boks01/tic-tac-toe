@@ -34,6 +34,9 @@ while True:
     elif game_board[0][2] == player and game_board[1][1] == player and game_board[2][0] == player:
         print(f"{player} win!!")
         break
+    elif game_board[0][1] == player and game_board[1][1] == player and game_board[2][1] == player:
+        print(f"{player} win!!")
+        break
     for i in range(10):
         num += i
     if num == 1:
